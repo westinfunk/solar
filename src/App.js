@@ -3,14 +3,14 @@ import Sidebar from './containers/Sidebar';
 import Main from './containers/Main';
 import Topbar from './containers/Topbar';
 import Signin from './containers/Signin/';
-import Editor from './containers/Editor';
+import PDF from './containers/PDF';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Editor />
+      <PDF />
       {/* <Topbar />
       <div className="container-fluid">
         <div className="row">
